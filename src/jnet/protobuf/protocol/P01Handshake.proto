@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message P01Handshake
+{
+	enum Type
+	{
+		REQUEST = 0,
+		RESPONSE = 1
+	}
+	
+	Type type = 0,
+	
+}
